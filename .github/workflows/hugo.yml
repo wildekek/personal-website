@@ -34,7 +34,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
       with:
-        fetch-depth: 0
-
+        submodules: true # Fetch Hugo themes (true OR recursive)
+        fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
     - name: hugo
       uses: klakegg/actions-hugo@1.0.0
