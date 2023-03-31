@@ -1,7 +1,7 @@
 ---
 title: "Cute Astronaut - part 1"
 date: 2023-03-29T19:48:13+02:00
-draft: true
+draft: false
 ---
 ## What does it feel like to leave earth?
 One of my very first memories is from 1984. It's spring time, and me and my family are celebrating my fourth birthday. Our garden is filled with relatives and friends. But I'm not there. I'm in the living room, next to the record player. I'm flat on my back in my dads recliner, wearing brown AKG headphones. I have just been gifted a vinyl record called "A True Space Adventure: Space Shuttle" and I need to find out what it sounds like, right now.
