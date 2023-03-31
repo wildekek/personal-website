@@ -18,7 +18,7 @@ But Judy was way more interested in astronaut [Judy Resnik](https://en.wikipedia
 
 ![Judith Resnik portrait](resnik.jpg)
 
-Before Resnik flew the fatal Challenger Mission, she flew mission STS-41-D on board of Space Shuttle Discovery and became the second American Woman in Space. And the first Jewish American in space. After doing some research I think it is fair to say that Judy did note give a single crap about those titles, nor did she care for the media attention that they attracted. There is something truly powerfull about how she handles the following interview and I think it speaks for itself.
+Before Resnik flew the fatal Challenger Mission, she flew mission STS-41-D on board of Space Shuttle Discovery and became the second American Woman in Space. And the first Jewish American in space. After doing some research I think it is fair to say that Judy did note give a single crap about those titles, nor did she care for the media attention that they attracted. There is something truly powerful about how she handles the following interview and I think it speaks for itself.
 
 {{< youtube EaafRyuwA8w >}}
 
@@ -28,10 +28,10 @@ Inspired by Resnik, and after a year of research and writing, Judy, the actress,
 
 
 ## What does it sound like to leave earth?
-One act of the play involves the launch of Space Shuttle Mission STS-51-L. I was asked to help with the Theatre Engineering of the play. Our mission for this act, was to use audio and visuals in such way, that we would bring the audience along for the ride. Transcend their role as spectators, and have them right there with the crew as they left the platform. Just as I had experienced as a kid on my dads recliner.
+One act of the play involves the launch of Space Shuttle Mission STS-51-L. I was asked to help with the theatre engineering of the play. Our mission for this act, was to use audio and visuals in such way, that we would bring the audience along for the ride. Transcend their role as spectators, and have them right there with the crew as they left the platform. Just as I had experienced as a kid on my dads recliner.
 
 ### NASA Archives
-Thanks to the amazing work of Nasa's John Stoll, a lot of the audio from that fateful morning on January 28, 1986 is availablbe on [Archive.org](https://archive.org/details/STS-51L). 
+Thanks to the amazing work of Nasa's John Stoll, a lot of the audio from that fateful morning on January 28, 1986 is available on [Archive.org](https://archive.org/details/STS-51L). 
 
 I have been able to distill the following voice loops from there:
 * Public loop - Kennedy Space Center
@@ -53,7 +53,7 @@ Luckily NASA obsesses with recording all their launches for safety purposes. The
 
 
 ### Bringing it all together
-All the materials were brought into Garageband, where I timed-synced and mixed everything together, to create (to the best of my knowledge) the best sounding audio of the Challenger launch. Sit down in your favorite recliner, put on your headphones,  close your eyes and enjoy!
+All the materials were brought into Garageband, where I time-synced and mixed everything together, to create (to the best of my knowledge) the best sounding audio of the Challenger launch. Sit down in your favorite recliner, put on your headphones,  close your eyes and enjoy!
 
 {{< youtube 0CTTGTS5IEA >}}
 
