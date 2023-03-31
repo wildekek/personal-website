@@ -38,9 +38,9 @@ enableEmoji = true
     weight = 30
 
 [params]
-  sitename = "Awesome hugo blog"
+  sitename = "Wildekek's Personal Page"
   defaultColor = "dark" # set default color mode: dark or light
-  description = "Minimal Hugo blog theme with light and dark mode support"
+  description = "Musings on technology and building stuff."
   mainSections = ['posts']
 
 [params.author]
