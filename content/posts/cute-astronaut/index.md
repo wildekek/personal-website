@@ -41,7 +41,7 @@ I have been able to distill the following voice loops from there:
 
 > If you want to know more about how voice loop systems work, read [this](https://www.interruptions.net/literature/Patterson-CSCW-JCC99.pdf)
 
-A LOT of cleaning up had to be done. There is hours and hours of audio there, but it is hard to find the good stuff. I exctracted one particular audio channel by reversing the left channel and suddenly I had the flight director loop, which I thought did not exist before. I cleaned up the audio channels by choosing the best parts out of the files, then applied [EQ](https://www.tokyodawn.net/tdr-nova/) and a [denoiser](https://bertomaudio.com/denoiser-classic.html).
+A LOT of cleaning up had to be done. There is hours and hours of audio there, but it is hard to find the good stuff. I extracted one particular audio channel by reversing the left channel and suddenly I had the flight director loop, which I thought did not exist before. I cleaned up the audio channels by choosing the best parts out of the files, then applied [EQ](https://www.tokyodawn.net/tdr-nova/) and a [denoiser](https://bertomaudio.com/denoiser-classic.html).
 
 But to truly get the feeling of being there, you need Space Shuttle on-board audio. The sound of the Operational Recorder has not been publicly released. The only thing available is a [transcript](https://history.nasa.gov/transcript.html).
 > T+15..............MS 2..... (Expletive) hot.
@@ -58,7 +58,7 @@ All the materials were brought into Garageband, where I timed-synced and mixed e
 {{< youtube 0CTTGTS5IEA >}}
 
 
-### See: You're Too Cute To Be An Astronaut
+## See: You're Too Cute To Be An Astronaut
 For tickets or bookings go to [cuteastronaut.com](https://www.cuteastronaut.com/)
 > Astronauts don’t have to be either very feminine or very masculine women or very superhuman males, or any color or anything. It’s about people in space.<br>
 > — <cite>Judy Resnik</cite>
