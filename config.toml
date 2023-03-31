@@ -1,4 +1,4 @@
-title = "Wildekek's Home"
+title = "Willem Vooijs"
 baseURL = 'https://willem.vooijs.eu/'
 languageCode = 'en-us'
 theme = "hugo-blog-awesome"
@@ -38,7 +38,7 @@ enableEmoji = true
     weight = 30
 
 [params]
-  sitename = "Wildekek's Personal Page"
+  sitename = "Willems Personal Page"
   defaultColor = "dark" # set default color mode: dark or light
   description = "Musings on technology and building stuff."
   mainSections = ['posts']
@@ -46,7 +46,7 @@ enableEmoji = true
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Wildekek's blog"
+  intro = "Hi, I'm Willem."
   name = "Willem Vooijs"
   description = "Product Manager by profession, loves tinkering with electronics, home automation, open source software and sustainable energy."
 
