@@ -8,7 +8,7 @@ One of my very first memories is from 1984. It's spring time, and me and my fami
 
 ![Vinyl record](record.jpg)
 
-The record starts with a narrator describing the preparations of STS-1, the first Space Shuttle Mission in 1981. As the Launch Director counts down, 3...2...1... I close my eyes and at T-0, when the solid rocket boosters ignite, I am right there. I'm part of the crew of Space Shuttle Columbia. It was the most exciting thing I had ever felt. And I've been a space-nerd ever since.
+The record starts with a narrator describing the preparations of STS-1, the first Space Shuttle mission in 1981. As the Launch Director counts down, 3...2...1... I close my eyes and at T-0, when the solid rocket boosters ignite, I am right there. I'm part of the crew of Space Shuttle Columbia. It was the most exciting thing I had ever felt. And I've been a space-nerd ever since.
 
 
 ## A Brilliant Astronaut
@@ -18,7 +18,7 @@ But Judy was way more interested in astronaut [Judy Resnik](https://en.wikipedia
 
 ![Judith Resnik portrait](resnik.jpg)
 
-Before Resnik flew the fatal Challenger Mission, she flew mission STS-41-D on board of Space Shuttle Discovery and became the second American Woman in Space. And the first Jewish American in space. After doing some research I think it is fair to say that Judy did note give a single crap about those titles, nor did she care for the media attention that they attracted. There is something truly powerful about how she handles the following interview and I think it speaks for itself.
+Before Resnik flew the fatal Challenger mission, she flew mission STS-41-D on board of Space Shuttle Discovery and became the second American Woman in Space. And the first Jewish American in space. After doing some research I think it is fair to say that Judy did note give a single crap about those titles, nor did she care for the media attention that they attracted. There is something truly powerful about how she handles the following interview and I think it speaks for itself.
 
 {{< youtube EaafRyuwA8w >}}
 
@@ -27,7 +27,7 @@ Before Resnik flew the fatal Challenger Mission, she flew mission STS-41-D on bo
 Inspired by Resnik, and after a year of research and writing, Judy, the actress, turned out to also be a playwright. She completed the theatre screenplay for [You're Too Cute To Be An Astronaut](https://www.cuteastronaut.com/). The play surfaces the systemic sexism against women, especially engineers, and how absurd and insignificant it looks against the backdrop of their achievements. She's been on stage inspiring her audience with an incredibly ambitious message and I could not be more proud of what she's achieved. Our society desperately needs more women engineers, and creative ways of inspiring young women to do so. By times it is also hilarious, so I think even Resnik would approve.
 
 
-## What does it sound like to leave earth?
+## Recreating a Shuttle Launch
 One act of the play involves the launch of Space Shuttle Mission STS-51-L. I was asked to help with the theatre engineering of the play. Our mission for this act, was to use audio and visuals in such way, that we would bring the audience along for the ride. Transcend their role as spectators, and have them right there with the crew as they left the platform. Just as I had experienced as a kid on my dads recliner.
 
 ### NASA Archives
@@ -43,7 +43,7 @@ I have been able to distill the following voice loops from there:
 
 A LOT of cleaning up had to be done. There is hours and hours of audio there, but it is hard to find the good stuff. I extracted one particular audio channel by reversing the left channel and suddenly I had the flight director loop, which I thought did not exist before. I cleaned up the audio channels by choosing the best parts out of the files, then applied [EQ](https://www.tokyodawn.net/tdr-nova/) and a [denoiser](https://bertomaudio.com/denoiser-classic.html).
 
-But to truly get the feeling of being there, you need Space Shuttle on-board audio. The sound of the Operational Recorder has not been publicly released. The only thing available is a [transcript](https://history.nasa.gov/transcript.html).
+But to truly get the feeling of being there, you need audio from on board of the Space Shuttle. The sound of the Operational Recorder of the Challenger disaster has not been publicly [released](https://www.justice.gov/oip/blog/foia-update-space-shuttle-privacy-appeal-decided). The only thing available is a [transcript](https://history.nasa.gov/transcript.html). I needed to find another way to find out what that day sounded like from within the shuttle.
 > T+15..............MS 2..... (Expletive) hot.
 — <cite>(Judy Resnik)</cite>
 
