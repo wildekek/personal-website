@@ -1,10 +1,10 @@
 ---
 title: "Cute Astronaut - part 2"
 date: 2023-04-03T13:07:03+02:00
-draft: true
+draft: false
 ---
 ## Intro
-This is part 2 of a 3 part series where I talk about theatre engineering for the play [You're Too Cute to Be An Astronaut](https://www.cuteastronaut.com/). In [part 1](/posts/cute-astronaut/) of this series you can find out about the motivation for the play and its audio design. This part will focus on creating a show controller for the play using Home Assistant.
+This is part 2 of a [3 part series](/posts) where I talk about theatre engineering for the play [You're Too Cute to Be An Astronaut](https://www.cuteastronaut.com/). In [part 1](/posts/cute-astronaut/) of this series you can find out about the motivation for the play and its audio design. This part will focus on creating a show controller for the play using Home Assistant.
 
 ## Flying Solo
 One of the constraints for the venue for the play, was that our actor, Judy needed to perform solo, without any outside help. There would be no theatrical tech in the room where the play would be performed.
@@ -90,7 +90,13 @@ To trigger these cues an automation listens for changes to the cue, and:
 
 ![Cue change](cue_change.jpg)
 
-# Conclusion
+## Conclusion
 I'm really happy with the way this turned out. It is easy to read and reason about what a cue does, even for a non-technical person. It also makes it super easy to change the order of things or change their parameters. And while I'm writing this it has has worked flawlessly for more than 40 live performances.
 
+## See: You're Too Cute To Be An Astronaut
+For tickets or bookings go to [cuteastronaut.com](https://www.cuteastronaut.com/)
+> Astronauts don’t have to be either very feminine or very masculine women or very superhuman males, or any color or anything. It’s about people in space.<br>
+> — <cite>Judy Resnik</cite>
+
+## Continue reading
 In part 3 of this series, to be released later this week, I'll talk about how I hacked a 7-segment clock to be used a launch countdown clock for the performance.

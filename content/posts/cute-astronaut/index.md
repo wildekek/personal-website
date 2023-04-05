@@ -3,6 +3,10 @@ title: "Cute Astronaut - part 1"
 date: 2023-03-29T19:48:13+02:00
 draft: false
 ---
+## Intro
+This is part 1 of a [3 part series](/posts) where I talk about theatre engineering for the play [You're Too Cute to Be An Astronaut](https://www.cuteastronaut.com/). In this part you can find out about the motivation for the play and its audio design.
+
+
 ## What does it feel like to leave earth?
 One of my very first memories is from 1984. It's spring time, and me and my family are celebrating my fourth birthday. Our garden is filled with relatives and friends. But I'm not there. I'm in the living room, next to the record player. I'm flat on my back in my dads recliner, wearing brown AKG headphones. I have just been gifted a vinyl record called "A True Space Adventure: Space Shuttle" and I need to find out what it sounds like, right now.
 
@@ -57,9 +61,10 @@ All the materials were brought into Garageband, where I time-synced and mixed ev
 
 {{< youtube 0CTTGTS5IEA >}}
 
-
 ## See: You're Too Cute To Be An Astronaut
 For tickets or bookings go to [cuteastronaut.com](https://www.cuteastronaut.com/)
 > Astronauts don’t have to be either very feminine or very masculine women or very superhuman males, or any color or anything. It’s about people in space.<br>
 > — <cite>Judy Resnik</cite>
 
+## Continue reading
+In [Part 2](/posts/cute-astronaut2/) of this series, you can learn how I created a show controller for the play using Home Assistant.
