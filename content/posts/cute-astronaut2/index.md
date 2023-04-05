@@ -58,7 +58,7 @@ Currently it supports MQTT and MIDI, but it can easily be extended to support ot
 ![Lights dashboard](lights.jpg)
 
 ## Sound
-Since the play has a few music tracks, as well as a [Space Shuttle launch](https://www.youtube.com/watch?v=0CTTGTS5IEA), I wanted to make sure I used the Allo Boss' high quality DAC. To enable it, you'll have to load a kernel overlay. Unfortunately there is nog feature in Home Assistant natively to do this, and it has to be done by editing a file on the root file system. I can recommend adding [Adam Outler's add-on repository](https://github.com/adamoutler/HassOSConfigurator): it has an SSH add-on that allows you to log in directly to the host OS. Then, load the right overlay by adding it to /mnt/boot/config.txt:
+Since the play has a few music tracks, as well as a [Space Shuttle launch](https://www.youtube.com/watch?v=0CTTGTS5IEA), I wanted to make sure I used the Allo Boss' high quality DAC. To enable it, you'll have to load a kernel overlay. Unfortunately there is no feature in Home Assistant natively to do this, and it has to be done by editing a file on the root file system. I can recommend adding [Adam Outler's add-on repository](https://github.com/adamoutler/HassOSConfigurator): it has an SSH add-on that allows you to log in directly to the host OS. Then, load the right overlay by adding it to /mnt/boot/config.txt:
 
 	[ALL]
 	dtoverlay=allo-boss2-dac-audio
