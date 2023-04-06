@@ -38,17 +38,17 @@ enableEmoji = true
     weight = 30
 
 [params]
-  sitename = "Willems Personal Page"
+  sitename = "Willem Vooijs"
   defaultColor = "dark" # set default color mode: dark or light
-  description = "Musings on technology and building stuff."
+  description = "Willem Vooijs's personal blog"
   mainSections = ['posts']
 
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Hi, I'm Willem."
+  intro = "Hi, I'm Willem Vooijs."
   name = "Willem Vooijs"
-  description = "Product Manager by profession, loves tinkering with electronics, home automation, open source software and sustainable energy."
+  description = "Product Manager by profession. I love tinkering with electronics, home automation, open source software and sustainable energy."
 
 [[params.socialIcons]]
 name = "github"

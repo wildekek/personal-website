@@ -6,4 +6,4 @@ author: Willem Vooijs
 draft: false
 ---
 
-Hi I'm Willem and I just made this web page.
+Hi I'm Willem Vooijs (@wildekek). I made this web page, which runs on a box in my basement. Yes, I like to live dangerously.
