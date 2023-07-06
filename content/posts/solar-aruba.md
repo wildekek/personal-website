@@ -4,9 +4,8 @@ date: 2023-07-06T21:59:19+02:00
 draft: true
 ---
 
-## **🍃 Uitgangssituatie**
-
-Zonne- en windenergie zijn de goedkoopste bronnen van energie ooit. Niet in de toekomst, maar al sinds 2019**[¹](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21)**. In de afgelopen 10 jaar zijn de kosten van “Solar en Wind” gedaald met 82%, en alles wijst er op dat de komende 10 jaar de prijzen nogmaals diezelfde daling in kosten gaan laten zien**[²](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21)**. De kosten van de **aanschaf** van Solar en Wind, zijn nu al goedkoper dan de **operationele** kosten van een gas of olie installatie[³](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21).
+## 🍃 Uitgangssituatie
+Zonne- en windenergie zijn de goedkoopste bronnen van energie ooit. Niet in de toekomst, maar al sinds 2019[¹](#bronvermelding). In de afgelopen 10 jaar zijn de kosten van “Solar en Wind” gedaald met 82%, en alles wijst er op dat de komende 10 jaar de prijzen nogmaals diezelfde daling in kosten gaan laten zien[²](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21). De kosten van de **aanschaf** van Solar en Wind, zijn nu al goedkoper dan de **operationele** kosten van een gas of olie installatie[³](#bronvermelding).
 
 
 > 🛢️ Vandaag de dag wordt voor het opwekken van energie op Aruba nog steeds voor meer dan [80% met stookolie](https://app.electricitymaps.com/zone/AW) (HFO) gedaan. Er is begonnen om de installaties geschikt te maken [om meer met gas te stoken](https://antilliaansdagblad.com/aruba/27189-aruba-regionaal-leider-schone-energie).
@@ -25,41 +24,37 @@ Het aanvragen, installeren en in gebruik nemen van een solar installatie bestaat
 title: Legenda
 ---
 flowchart TD
-		classDef default color,:fff,stroke:#333,stroke-width:1px;
-		classDef elmar fill:#2572D0
-		classDef solar fill:#1FA08E
-		classDef installateur fill:#AC0CC6
+    classDef default color,:fff,stroke:#333,stroke-width:1px;
+    classDef elmar fill:#2572D0
+    classDef solar fill:#1FA08E
+    classDef installateur fill:#AC0CC6
     elmar[Elmar]:::elmar
-		solar[Solar installateur]:::solar
-		installateur[Elektrische installateur]:::installateur
-
+    solar[Solar installateur]:::solar
+    installateur[Elektrische installateur]:::installateur
 ```
 
 ```mermaid
 flowchart TD
-		classDef default stroke:#1C3829,stroke-width:1px;
-		classDef elmar fill:#2572D0
-		classDef solar fill:#1FA08E
-		classDef installateur fill:#AC0CC6
-	  waiver[Solar Waiver]:::elmar --> |2 weken| prelim[Preliminary approval]:::elmar
-	  prelim --> |1 week| site[Site inspectie]:::solar
-		site --> |1 week| offer[Offertes]:::solar
-			offer --> offer_signed[Tekenen offerte]:::solar
-			offer_signed -->|12-20 weken| oplevering[Oplevering]:::solar
-		site -. Ongekeurde installatie? .-> opwaarderen
-		subgraph opwaarderen[Opwaarderen installatie]
-			inspection[Inspectie]:::installateur --> herstel[Herstel]:::installateur
-			herstel --> tekening[Tekening]:::installateur
-			tekening --> keuring[Keuring]:::elmar
-		end
-		opwaarderen --> oplevering
-		oplevering[Oplevering]:::solar --> |24-52 weken| eindinspectie[Eindinspectie]:::elmar
-		eindinspectie --> interconnection[DG Interconnection Agreement]:::elmar
-		interconnection --> teruglevering["✅ Teruglevering energie"]:::elmar
-		click waiver "https://www.elmar.aw/sites/default/files/pdf-files/Solar%20Waiver%20Feb.%2023%202017.pdf" "Solar Waiver"
-		click inspection "https://www.notion.so/willemvooijs/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=4#fc3edf5d1023448cac418f5869537312"
+    classDef default stroke:#1C3829,stroke-width:1px;
+    classDef elmar fill:#2572D0
+    classDef solar fill:#1FA08E
+    classDef installateur fill:#AC0CC6
+    waiver[Solar Waiver]:::elmar --> |2 weken| prelim[Preliminary approval]:::elmar
+    prelim --> |1 week| site[Site inspectie]:::solar
+    site --> |1 week| offer[Offertes]:::solar
+        offer --> offer_signed[Tekenen offerte]:::solar
+        offer_signed -->|12-20 weken| oplevering[Oplevering]:::solar
+    site -. Ongekeurde installatie? .-> opwaarderen
+    subgraph opwaarderen[Opwaarderen installatie]
+        inspection[Inspectie]:::installateur --> herstel[Herstel]:::installateur
+        herstel --> tekening[Tekening]:::installateur
+        tekening --> keuring[Keuring]:::elmar
+    end
+    opwaarderen --> oplevering
+    oplevering[Oplevering]:::solar --> |24-52 weken| eindinspectie[Eindinspectie]:::elmar
+    eindinspectie --> interconnection[DG Interconnection Agreement]:::elmar
+    interconnection --> teruglevering["✅ Teruglevering energie"]:::elmar
 ```
-
 ---
 
 ## 🔌 Energievoorziening
@@ -72,19 +67,19 @@ Alvorens je zelf energie kunt opwekken moet je een [Waiver Solar Installation](h
 
 ### Keuring
 
-Verder is het uitermate belangrijk dat je een volledig gekeurde elektrische installatie hebt. Deze moet voorzien zijn van recente tekeningen, een goedkeuringsstempel en handtekeningen van de inspecteur van Elmar en DTI[⁶](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21).
+Verder is het uitermate belangrijk dat je een volledig gekeurde elektrische installatie hebt. Deze moet voorzien zijn van recente tekeningen, een goedkeuringsstempel en handtekeningen van de inspecteur van Elmar en DTI[⁶](#bronvermelding).
 
-Indien je de benodigde papieren niet hebt dan moet je een afspraak maken met een keurmeester uit de lijst van keurmeesters van Elmar[⁷](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21). Je krijgt vervolgens een offerte voor het aanpassen van de installatie naar de huidige wetgeving, en zal er een herkeuring plaats vinden.
+Indien je de benodigde papieren niet hebt dan moet je een afspraak maken met een keurmeester uit de lijst van keurmeesters van Elmar[⁷](#bronvermelding). Je krijgt vervolgens een offerte voor het aanpassen van de installatie naar de huidige wetgeving, en zal er een herkeuring plaats vinden.
 
 ### Pre-paid meter
 
-Bij gebruik van een pre-paid meter kan er geen solar installatie aangelegd worden.[⁴](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21)
+Bij gebruik van een pre-paid meter kan er geen solar installatie aangelegd worden.[⁴](#bronvermelding)
 
 ### Slimme meters
 
-Elmar is bezig met het uitrollen van slimme energiemeters[⁸](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21), die op afstand worden uitgelezen. Hierdoor wordt het makkelijker inzicht te krijgen in opbrengst en verbruik.
+Elmar is bezig met het uitrollen van slimme energiemeters[⁸](#bronvermelding), die op afstand worden uitgelezen. Hierdoor wordt het makkelijker inzicht te krijgen in opbrengst en verbruik.
 
-> “Aruba wants to provide all houses with a smart meter by the end of 2024. Half of all customers of energy supplier ELMAR already have a smart meter.” - Audrey Croes, Elmar
+> “Aruba wants to provide all houses with a smart meter by the end of 2024. Half of all customers of energy supplier ELMAR already have a smart meter.” -- <cite>Audrey Croes, Elmar</cite>
 > 
 
 ---
@@ -137,9 +132,9 @@ Er zijn 3 types inverters, elk met voor- en nadelen.
 |  | 1-fase | 2-fasen | 3-fasen | Opmerkingen |
 | --- | --- | --- | --- | --- |
 | Kosten inverter | 💰 | 💰💰 | 💰💰💰 |  |
-|  | ⭐ 3KWp | ⭐⭐ 5KWp | ⭐⭐⭐⭐ 10KWp | Piekvermogen beperkt hoeveel panelen je kunt nemen en de energie die je terug kunt leveren aan Elmar. https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21. |
+|  | ⭐ 3KWp | ⭐⭐ 5KWp | ⭐⭐⭐⭐ 10KWp | Piekvermogen beperkt hoeveel panelen je kunt nemen en de energie die je terug kunt leveren aan Elmar. |
 | Bestendigheid tegen hoge netspanning | ⭐ | ⭐ | ⭐⭐⭐ | Indien de https://www.zelfstroom.nl/blog/te-hoge-netspanning/ is zal je installatie tijdelijk uit gaan. |
-| Zelfverbruik | ⭐ | ⭐⭐ | ⭐⭐⭐ | Je eigen opgewekte energie verbruiken is beter voor het stroomnet en voordeliger als de https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21 vervalt. |
+| Zelfverbruik | ⭐ | ⭐⭐ | ⭐⭐⭐ | Je eigen opgewekte energie verbruiken is beter voor het stroomnet en voordeliger als de [saldering](#salderingsregeling) vervalt. |
 | Solar systeem uit te breiden | ⭐ | ⭐ | ⭐⭐⭐ |  |
 | Oude woningen | ⭐⭐ | ⭐ | ❓ | Soms zijn oudere aansluitingen (nog) niet geschikt gemaakt voor 3-fasen stroom. |
 
@@ -151,7 +146,7 @@ Er zijn 3 types inverters, elk met voor- en nadelen.
 
 ### Keuring en voorbereidingskosten
 
-Indien je installatie [niet recentelijk is gekeurd](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21), zul je deze opnieuw moeten laten doen. De kosten hiervan variëren, maar liggen ergens tussen de AWG 1.800,00 en AWG 7.500,00. Meestal moet er nog een aardpen geslagen worden, omdat de aarde nog op de waterleiding zit, wat niet meer mag, dus extra kosten achteraf.
+Indien je installatie [niet recentelijk is gekeurd](#keuring), zul je deze opnieuw moeten laten doen. De kosten hiervan variëren, maar liggen ergens tussen de AWG 1.800,00 en AWG 7.500,00. Meestal moet er nog een aardpen geslagen worden, omdat de aarde nog op de waterleiding zit, wat niet meer mag, dus extra kosten achteraf.
 
 ### Solar Installatie
 
@@ -167,11 +162,11 @@ Salderen (“Net Metering”), betekent dat je alle energie die je terug levert 
 
 ### Teruglever vergoeding
 
-Als je per maand meer energie terug levert dan je verbruikt, krijg je van Elmar AWG 0,3043 per KW/h (85%[⁴](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21) van de eerste consumptie tier[⁹](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21)). Bij een grote installatie, een zonnige maand en weinig verbruik, kun je dan zelfs een negatieve rekening krijgen.
+Als je per maand meer energie terug levert dan je verbruikt, krijg je van Elmar AWG 0,3043 per KW/h (85%[⁴](#bronvermelding) van de eerste consumptie tier[⁹](#bronvermelding)). Bij een grote installatie, een zonnige maand en weinig verbruik, kun je dan zelfs een negatieve rekening krijgen.
 
 ### Grid Usage Fee
 
-Elmar rekent maandelijkse vaste kosten voor de capaciteit van je solar installatie, ongeacht hoeveel energie je terug levert[⁴](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21).
+Elmar rekent maandelijkse vaste kosten voor de capaciteit van je solar installatie, ongeacht hoeveel energie je terug levert[⁴](#bronvermelding).
 
 - De eerste 3KWp zijn gratis
 - Voor iedere 1KWp daarna betaal je AWG 15,- per maand
@@ -183,7 +178,7 @@ Voor een 10KWp installatie betaal je dus 7x AWG 15,- = AWG 105,- per maand
 Nadat de installatie is opgeleverd vind er een eindkeuring plaats waar kosten aan zijn verbonden. Daarnaast is er nog een bedrag voor het toegang geven van Elmar op je installatie om deze te bewaken met een zogenaamde “Grid guard”, waarvoor je AWG 400,- voor moet betalen. De kosten van beiden zitten vaak al in de offerte, maar let hier op. 
 **Vaak moet je hier 24-52 weken op wachten! Tijdens deze periode:**
 
-- Mag je de solar installatie **niet aangesloten hebben[⁴](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21)**
+- Mag je de solar installatie **niet aangesloten hebben**[⁴](#bronvermelding)
 - Krijg je geen vergoeding voor het terugleveren van elektriciteit aan Elmar
 - Kun je niet salderen
 - Hoef je ook geen Grid Usage Fee te betalen
@@ -191,7 +186,7 @@ Nadat de installatie is opgeleverd vind er een eindkeuring plaats waar kosten aa
 
 ### Terugverdientijd
 
-Vaak klopt de terugverdientijd uit de offerte niet en is veel te optimistisch. Om te berekenen hoeveel geld je (ongeveer) bespaart met solar en hoe lang het duurt voor de installatie zichzelf heeft terugverdiend, kun je hier de gegevens invullen. Deze calculator probeert zo realistisch mogelijk te zijn en werkt op de meest recente tarieven van Elmar[⁹](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21). 
+Vaak klopt de terugverdientijd uit de offerte niet en is veel te optimistisch. Om te berekenen hoeveel geld je (ongeveer) bespaart met solar en hoe lang het duurt voor de installatie zichzelf heeft terugverdiend, kun je hier de gegevens invullen. Deze calculator probeert zo realistisch mogelijk te zijn en werkt op de meest recente tarieven van Elmar[⁹](#bronvermelding). 
 
 <iframe width="100%" height="1000" name="iframe" src="https://grid.is/@wildekek/solar-aruba-terugverdientij-2zXXp:ghRia6h:QrEkQ0cA?s=eyJHUklEIFNoZWV0Ijp7Ik9sZCBiaWxsIjp7IkQ3IjoxMDB9fX0="></iframe>
 
@@ -204,11 +199,10 @@ Vaak klopt de terugverdientijd uit de offerte niet en is veel te optimistisch. O
 - Pas op voor hoge marges op de materialen. Laat de offerte specificeren zodat het duidelijk is wat je krijgt voor je investering.
 - Pas op met solar leveranciers die oude panelen of inverters proberen te verkopen. Hiermee is je terugverdientijd onnodig lang.
 - Vraag op tijd een eindkeuring aan. Geen eindkeuring = geen teruglevering.
-- Bij vragen over de informatie in dit document, stuur een berichtje naar [een van de auteurs](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21), of laat een comment in dit document achter.
-
+- Bij vragen over de informatie in dit document, stuur een berichtje naar [een van de auteurs](#copyright).
 ---
 
-*Bronvermelding*:
+### Bronvermelding:
 
 1. [World Economic Forum](https://www.weforum.org/agenda/2021/11/renewable-energy-cost-fallen/)
 2. [PV Tech](https://www.pv-tech.org/global-solar-demand-to-grow-by-40-in-2023-as-prices-fall-and-capacity-grows-bloomberg/)
@@ -219,6 +213,8 @@ Vaak klopt de terugverdientijd uit de offerte niet en is veel te optimistisch. O
 7. [Elmar Inspections](https://www.elmar.aw/customer-services/inspection)
 8. [Elmar Smart Meters](https://www.elmar.aw/save-energy/smart-meter)
 9. [Elmar Rates](https://www.elmar.aw/your-electricity-statement/rates)
+
+### Copyright
 
 *Copyright 2023* [Willem Vooijs](https://www.linkedin.com/in/willemvooijs/) *and [Rob Vooijs](https://www.linkedin.com/in/rob-vooys-0a840835/)
 
