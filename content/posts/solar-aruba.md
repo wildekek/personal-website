@@ -199,7 +199,7 @@ Vaak klopt de terugverdientijd uit de offerte niet en is veel te optimistisch. O
 - Pas op voor hoge marges op de materialen. Laat de offerte specificeren zodat het duidelijk is wat je krijgt voor je investering.
 - Pas op met solar leveranciers die oude panelen of inverters proberen te verkopen. Hiermee is je terugverdientijd onnodig lang.
 - Vraag op tijd een eindkeuring aan. Geen eindkeuring = geen teruglevering.
-- Bij vragen over de informatie in dit document, stuur een berichtje naar [een van de auteurs](#copyright).
+- Bij vragen over de informatie in dit document, stuur me een [berichtje](/about).
 ---
 
 ### Bronvermelding:
@@ -213,17 +213,6 @@ Vaak klopt de terugverdientijd uit de offerte niet en is veel te optimistisch. O
 7. [Elmar Inspections](https://www.elmar.aw/customer-services/inspection)
 8. [Elmar Smart Meters](https://www.elmar.aw/save-energy/smart-meter)
 9. [Elmar Rates](https://www.elmar.aw/your-electricity-statement/rates)
-
-### Copyright
-
-*Copyright 2023* [Willem Vooijs](https://www.linkedin.com/in/willemvooijs/) *and [Rob Vooijs](https://www.linkedin.com/in/rob-vooys-0a840835/)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
-
 
 <script type="module">
 import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
