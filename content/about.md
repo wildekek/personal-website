@@ -1,7 +1,7 @@
 ---
 title: About
 description: 'About page'
-date: '2023-07-6'
+date: 2023-07-06T21:59:19+02:00
 author: Willem Vooijs
 draft: false
 ---
