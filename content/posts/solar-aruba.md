@@ -1,7 +1,7 @@
 ---
 title: "Solar op Aruba"
 date: 2023-07-06T21:59:19+02:00
-draft: true
+draft: false
 ---
 
 ## 🍃 Uitgangssituatie
