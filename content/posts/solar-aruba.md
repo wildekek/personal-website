@@ -19,12 +19,13 @@ Gezien de ligging van Aruba, het aantal uren zon, en de stevige wind is het haas
 
 Het aanvragen, installeren en in gebruik nemen van een solar installatie bestaat uit een aantal stappen. Zie hieronder een diagram met alle stappen die genomen moeten worden[⁴](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21).
 
+
 ```mermaid
 ---
 title: Legenda
 ---
+
 flowchart TD
-    classDef default color,:fff,stroke:#333,stroke-width:1px;
     classDef elmar fill:#2572D0
     classDef solar fill:#1FA08E
     classDef installateur fill:#AC0CC6
@@ -67,7 +68,7 @@ Alvorens je zelf energie kunt opwekken moet je een [Waiver Solar Installation](h
 
 ### Keuring
 
-Verder is het uitermate belangrijk dat je een volledig gekeurde elektrische installatie hebt. Deze moet voorzien zijn van recente tekeningen, een goedkeuringsstempel en handtekeningen van de inspecteur van Elmar en DTI[⁶](#bronvermelding).
+Om een solar installatie te kunnen krijgen moet je eerst een volledig gekeurde elektrische installatie hebben. Deze moet voorzien zijn van recente tekeningen, een goedkeuringsstempel en handtekeningen van de inspecteur van Elmar en DTI[⁶](#bronvermelding).
 
 Indien je de benodigde papieren niet hebt dan moet je een afspraak maken met een keurmeester uit de lijst van keurmeesters van Elmar[⁷](#bronvermelding). Je krijgt vervolgens een offerte voor het aanpassen van de installatie naar de huidige wetgeving, en zal er een herkeuring plaats vinden.
 
@@ -188,7 +189,7 @@ Nadat de installatie is opgeleverd vind er een eindkeuring plaats waar kosten aa
 
 Vaak klopt de terugverdientijd uit de offerte niet en is veel te optimistisch. Om te berekenen hoeveel geld je (ongeveer) bespaart met solar en hoe lang het duurt voor de installatie zichzelf heeft terugverdiend, kun je hier de gegevens invullen. Deze calculator probeert zo realistisch mogelijk te zijn en werkt op de meest recente tarieven van Elmar[⁹](#bronvermelding). 
 
-<iframe width="100%" height="1000" name="iframe" src="https://grid.is/@wildekek/solar-aruba-terugverdientij-2zXXp:ghRia6h:QrEkQ0cA?s=eyJHUklEIFNoZWV0Ijp7Ik9sZCBiaWxsIjp7IkQ3IjoxMDB9fX0="></iframe>
+<iframe src="https://grid.is/embed/solar-aruba-calculator-2zXXp:ghRia6h:QrEkQ0cA?width=full&scale_to_fit=true" width="100%" height="950" data-document-id="db35d7a7-e821-4626-ba87-e42b12443470" style="border: 0px;" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 > ⚠️ De opbrengst van een solar installatie is afhankelijk van het weer en andere factoren. Ook kan Elmar de energieprijzen aanpassen in de toekomst. De werkelijke terugverdientijd kan daarom afwijken.
 
@@ -213,8 +214,3 @@ Vaak klopt de terugverdientijd uit de offerte niet en is veel te optimistisch. O
 7. [Elmar Inspections](https://www.elmar.aw/customer-services/inspection)
 8. [Elmar Smart Meters](https://www.elmar.aw/save-energy/smart-meter)
 9. [Elmar Rates](https://www.elmar.aw/your-electricity-statement/rates)
-
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-mermaid.initialize({ startOnLoad: true });
-</script>
