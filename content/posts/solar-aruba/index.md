@@ -4,6 +4,8 @@ date: 2023-07-06T21:59:19+02:00
 draft: false
 ---
 
+![Solar panels](solar.jpg)
+
 ## 🍃 Uitgangssituatie
 Zonne- en windenergie zijn de goedkoopste bronnen van energie ooit. Niet in de toekomst, maar al sinds 2019[¹](#bronvermelding). In de afgelopen 10 jaar zijn de kosten van “Solar en Wind” gedaald met 82%, en alles wijst er op dat de komende 10 jaar de prijzen nogmaals diezelfde daling in kosten gaan laten zien[²](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21). De kosten van de **aanschaf** van Solar en Wind, zijn nu al goedkoper dan de **operationele** kosten van een gas of olie installatie[³](#bronvermelding).
 
