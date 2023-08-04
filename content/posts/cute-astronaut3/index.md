@@ -1,7 +1,7 @@
 ---
 title: "Cute Astronaut - part 3"
 date: 2023-08-04T16:48:39+02:00
-draft: true
+draft: false
 ---
 
 ## Intro
