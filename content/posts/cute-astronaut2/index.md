@@ -99,4 +99,4 @@ For tickets or bookings go to [cuteastronaut.com](https://www.cuteastronaut.com/
 > — <cite>Judy Resnik</cite>
 
 ## Continue reading
-In part 3 of this series, to be released later this week, I'll talk about how I hacked a 7-segment clock to be used a launch countdown clock for the performance.
+In [part 3 of this series](/posts/cute-astronaut3/), I talk about hacking a 7-segment clock to be used a launch countdown clock for the performance.
