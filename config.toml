@@ -55,7 +55,7 @@ name = "github"
 url = "https://github.com/wildekek"
 
 [[params.socialIcons]]
-name = "twitter"
+name = "x"
 url = "https://twitter.com/wildekek"
 
 [[params.socialIcons]]
