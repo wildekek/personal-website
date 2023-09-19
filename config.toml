@@ -50,7 +50,7 @@ enableEmoji = true
   description = "Willem Vooijs's personal blog"
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
-  goToTop = false # set to false to disable 'go to top' button
+  goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/mermaid.min.js']
   dateFormat = "January 2, 2006" # default date format used on various pages
   # See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats.
