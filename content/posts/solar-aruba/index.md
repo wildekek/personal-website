@@ -190,8 +190,7 @@ Nadat de installatie is opgeleverd vind er een eindkeuring plaats waar kosten aa
 ### Terugverdientijd
 
 Vaak klopt de terugverdientijd uit de offerte niet en is veel te optimistisch. Om te berekenen hoeveel geld je (ongeveer) bespaart met solar en hoe lang het duurt voor de installatie zichzelf heeft terugverdiend, kun je hier de gegevens invullen. Deze calculator probeert zo realistisch mogelijk te zijn en werkt op de meest recente tarieven van Elmar[⁹](#bronvermelding). 
-
-<iframe src="https://grid.is/embed/solar-aruba-calculator-2zXXp:ghRia6h:QrEkQ0cA?width=full&scale_to_fit=true" width="100%" height="950" data-document-id="db35d7a7-e821-4626-ba87-e42b12443470" style="border: 0px;" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+[Terugverdiencalculator](https://app.calculatorstudio.co/@wildekek/solar-aruba-calculator-2zXXp:ghRia6h:QrEkQ0cA)
 
 > ⚠️ De opbrengst van een solar installatie is afhankelijk van het weer en andere factoren. Ook kan Elmar de energieprijzen aanpassen in de toekomst. De werkelijke terugverdientijd kan daarom afwijken.
 
