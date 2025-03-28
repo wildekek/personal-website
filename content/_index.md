@@ -1,4 +1,4 @@
 ---
-title: "Home"
-author : "Willem Vooijs"
+author: Willem Vooijs
+title: Home
 ---

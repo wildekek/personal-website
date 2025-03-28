@@ -1,0 +1,67 @@
+title: Willem Vooijs
+baseURL: https://willem.vooijs.eu/
+languageCode: en-us
+theme: hugo-blog-awesome
+# To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
+# To disable  Google Analytics, simply leave the field empty or remove the next line
+googleAnalytics: G-FFEE1FZEXZ # G-MEASUREMENT_ID
+# This defines how dates are formatted
+defaultContentLanguage: en-gb
+# Enable emojis globally
+enableEmoji: true
+#ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
+markup:
+  # set markup.highlight.noClasses=false to enable code highlight
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2 # ToC starts from H2
+    endLevel: 4 # ToC ends at H4
+    ordered: false # generates <ul> instead of <ol>
+menu:
+  main:
+  # The page reference (pageRef) is useful for menu highlighting
+  # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.  
+  - pageRef: /
+    name: Home
+    url: /
+    weight: 10
+  - pageRef: posts
+    name: Posts
+    url: /posts/
+    weight: 20
+  - pageRef: about
+    name: About
+    url: /about/
+    weight: 30
+params:
+  sitename: Willem Vooijs
+  defaultColor: dark
+  description: Willem Vooijs's personal blog
+  mainSections:
+  - posts
+  toc: false
+  goToTop: true
+  additionalScripts:
+  - js/mermaid.min.js
+  dateFormat: January 2, 2006
+  rssFeedDescription: summary
+  author:
+    avatar: avatar.jpg
+    intro: Hi, I'm Willem Vooijs.
+    name: Willem Vooijs
+    description: Product Manager by profession. I love tinkering with electronics,
+      home automation, open source software and sustainable energy.
+  socialIcons:
+  - name: github
+    url: https://github.com/wildekek
+  - name: x
+    url: https://twitter.com/wildekek
+  - name: linkedin
+    url: https://www.linkedin.com/in/willemvooijs/
+module:
+  imports:
+  - path: github.com/hugo-sid/hugo-blog-awesome
