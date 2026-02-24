@@ -40,7 +40,7 @@ menu:
 params:
   sitename: Willem Vooijs
   defaultColor: dark
-  description: Willem Vooijs's personal blog
+  description: Willem Vooijs - Product Manager sharing insights on electronics, home automation, open source software, and sustainable energy
   mainSections:
   - posts
   toc: false
