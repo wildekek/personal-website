@@ -1,0 +1,11 @@
+/* TEAM */
+Owner/Developer: Willem Vooijs
+Site: https://willem.vooijs.eu
+Twitter: @wildekek
+GitHub: @wildekek
+Location: Netherlands
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: Hugo, hugo-blog-awesome theme
+Software: Hugo Static Site Generator
