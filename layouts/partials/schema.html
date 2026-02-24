@@ -1,0 +1,19 @@
+{{- $author := .Site.Params.author -}}
+{{- $socialIcons := .Site.Params.socialIcons -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ $author.name }}",
+  "url": "{{ .Site.BaseURL }}",
+  "image": "{{ .Site.BaseURL }}{{ $author.avatar }}",
+  "jobTitle": "Product Manager",
+  "description": "{{ $author.description }}",
+  "sameAs": [
+    {{- range $index, $icon := $socialIcons -}}
+    {{- if $index }},{{ end }}
+    "{{ $icon.url }}"
+    {{- end -}}
+  ]
+}
+</script>
