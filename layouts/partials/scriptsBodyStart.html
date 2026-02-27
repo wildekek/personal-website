@@ -1,0 +1,2 @@
+{{ $theme_script := resources.Get "js/theme.js" | minify }}
+<script>{{ $theme_script.Content | safeJS }}</script>
