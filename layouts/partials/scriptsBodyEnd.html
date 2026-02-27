@@ -34,4 +34,24 @@
 
 {{ if .Params.mermaid }}
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        const mermaidTheme = () =>
+            document.documentElement.classList.contains('dark') ? 'dark' : 'default';
+
+        // Store original source before mermaid replaces elements with SVG
+        document.querySelectorAll('.mermaid').forEach(el => {
+            el.setAttribute('data-original', el.textContent.trim());
+        });
+
+        mermaid.initialize({ startOnLoad: true, theme: mermaidTheme() });
+
+        new MutationObserver(() => {
+            document.querySelectorAll('.mermaid').forEach(el => {
+                el.removeAttribute('data-processed');
+                el.textContent = el.getAttribute('data-original');
+            });
+            mermaid.initialize({ startOnLoad: false, theme: mermaidTheme() });
+            mermaid.run();
+        }).observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+    </script>
 {{ end }}
