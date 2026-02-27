@@ -18,7 +18,7 @@ Deploying to the server is a manual step:
 docker compose pull personal-website && docker compose up -d personal-website
 ```
 
-On startup, the container automatically purges the Cloudflare cache. This requires `CF_ZONE_ID` and `CF_API_TOKEN` environment variables to be set on the server (Cache Purge permission only).
+On startup, the container automatically purges the Cloudflare cache. This requires `CF_ZONE_ID` and `CF_API_TOKEN` environment variables to be set on the server (Cache Purge permission only). See `docker-compose.example.yml` for a reference configuration.
 
 ## Local development
 

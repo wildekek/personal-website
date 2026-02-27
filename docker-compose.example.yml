@@ -1,0 +1,9 @@
+services:
+  personal-website:
+    image: ghcr.io/wildekek/personal-website:latest
+    ports:
+      - "80:80"
+    environment:
+      - CF_ZONE_ID=${CF_ZONE_ID}
+      - CF_API_TOKEN=${CF_API_TOKEN}
+    restart: unless-stopped
