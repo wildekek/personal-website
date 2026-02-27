@@ -45,8 +45,7 @@ params:
   - posts
   toc: false
   goToTop: true
-  additionalScripts:
-  - js/mermaid.min.js
+  additionalScripts: []
   dateFormat: January 2, 2006
   rssFeedDescription: summary
   author:

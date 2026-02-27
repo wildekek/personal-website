@@ -2,6 +2,7 @@
 date: "2023-07-06T21:59:19+02:00"
 draft: false
 title: Solar op Aruba
+mermaid: true
 ---
 
 ![Solar panels](solar.jpg)
