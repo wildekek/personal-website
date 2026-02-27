@@ -8,7 +8,7 @@ mermaid: true
 ![Solar panels](solar.jpg)
 
 ## 🍃 Uitgangssituatie
-Zonne- en windenergie zijn de goedkoopste bronnen van energie ooit. Niet in de toekomst, maar al sinds 2019[¹](#bronvermelding). In de afgelopen 10 jaar zijn de kosten van “Solar en Wind” gedaald met 82%, en alles wijst er op dat de komende 10 jaar de prijzen nogmaals diezelfde daling in kosten gaan laten zien[²](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21). De kosten van de **aanschaf** van Solar en Wind, zijn nu al goedkoper dan de **operationele** kosten van een gas of olie installatie[³](#bronvermelding).
+Zonne- en windenergie zijn de goedkoopste bronnen van energie ooit. Niet in de toekomst, maar al sinds 2019[¹](#bronvermelding). In de afgelopen 10 jaar zijn de kosten van “Solar en Wind” gedaald met 82%, en alles wijst er op dat de komende 10 jaar de prijzen nogmaals diezelfde daling in kosten gaan laten zien[²](#bronvermelding). De kosten van de **aanschaf** van Solar en Wind, zijn nu al goedkoper dan de **operationele** kosten van een gas of olie installatie[³](#bronvermelding).
 
 
 > 🛢️ Vandaag de dag wordt voor het opwekken van energie op Aruba nog steeds voor meer dan [80% met stookolie](https://app.electricitymaps.com/zone/AW) (HFO) gedaan. Er is begonnen om de installaties geschikt te maken [om meer met gas te stoken](https://antilliaansdagblad.com/aruba/27189-aruba-regionaal-leider-schone-energie).
@@ -20,7 +20,7 @@ Gezien de ligging van Aruba, het aantal uren zon, en de stevige wind is het haas
 
 ## ⏩ Procedure aanvragen solar
 
-Het aanvragen, installeren en in gebruik nemen van een solar installatie bestaat uit een aantal stappen. Zie hieronder een diagram met alle stappen die genomen moeten worden[⁴](https://www.notion.so/Solar-en-Wind-op-Aruba-d215650fc700413ea244c7028a3a4de2?pvs=21).
+Het aanvragen, installeren en in gebruik nemen van een solar installatie bestaat uit een aantal stappen. Zie hieronder een diagram met alle stappen die genomen moeten worden[⁴](#bronvermelding).
 
 
 ```mermaid
