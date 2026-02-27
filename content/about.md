@@ -15,7 +15,6 @@ I made this website, which runs on a box in my basement. Yes, I like to live dan
 This site is where I share my projects, thoughts, and explorations in technology and sustainability.
 
 ## Contact me
-- [Twitter](https://twitter.com/wildekek)
 - [Github](https://github.com/wildekek)
 - [LinkedIn](https://www.linkedin.com/in/willemvooijs/)
 

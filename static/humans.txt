@@ -1,7 +1,6 @@
 /* TEAM */
 Owner/Developer: Willem Vooijs
 Site: https://willem.vooijs.eu
-Twitter: @wildekek
 GitHub: @wildekek
 Location: Netherlands
 
