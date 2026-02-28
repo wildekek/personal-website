@@ -10,7 +10,7 @@ https://willem.vooijs.eu
 
 ## Deployment
 
-Pushing to `main` triggers a GitHub Actions workflow that builds a Docker image (Hugo + nginx) and pushes it to the GitHub Container Registry (`ghcr.io/wildekek/personal-website:latest`).
+Pushing to `main` triggers a GitHub Actions workflow that builds the Hugo site, packages it into an nginx Docker image, and pushes it to the GitHub Container Registry (`ghcr.io/wildekek/personal-website:latest`).
 
 Deploying to the server is a manual step:
 
