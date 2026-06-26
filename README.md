@@ -1,24 +1,18 @@
 # Personal website
 
-https://willem.vooijs.eu
+https://vooijs.eu
 
 ## Stack
 
 - **[Hugo](https://gohugo.io/)** static site generator
 - **[hugo-blog-awesome](https://github.com/hugo-sid/hugo-blog-awesome)** theme (Go module)
-- **nginx** serves the built site with Cache-Control headers
+- **[GitHub Pages](https://pages.github.com/)** hosts the built site
 
 ## Deployment
 
-Pushing to `main` triggers a GitHub Actions workflow that builds the Hugo site, packages it into an nginx Docker image, and pushes it to the GitHub Container Registry (`ghcr.io/wildekek/personal-website:latest`).
+Pushing to `main` triggers the `.github/workflows/deploy.yml` GitHub Actions workflow, which builds the Hugo site and deploys it to GitHub Pages. No manual steps required.
 
-Deploying to the server is a manual step:
-
-```bash
-docker compose pull personal-website && docker compose up -d personal-website
-```
-
-On startup, the container automatically purges the Cloudflare cache. This requires `CF_ZONE_ID` and `CF_API_TOKEN` to be set on the server (Cache Purge permission only). Values can be provided as environment variables or via files using `CF_ZONE_ID_FILE` and `CF_API_TOKEN_FILE` (e.g. Docker secrets). See `docker-compose.example.yml` for a reference configuration.
+The canonical custom domain (`vooijs.eu`) is configured in the repository's Pages settings and pinned via `static/CNAME`. GitHub Pages automatically serves `www.vooijs.eu` and 301-redirects it to the apex.
 
 ## Local development
 
