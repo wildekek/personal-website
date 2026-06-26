@@ -1,5 +1,0 @@
-resources/
-.git/
-deploy/
-.hugo_build.lock
-*.code-workspace
