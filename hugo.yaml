@@ -7,12 +7,12 @@ googleAnalytics: G-FFEE1FZEXZ # G-MEASUREMENT_ID
 defaultContentLanguage: en
 languages:
   en:
-    languageCode: en-us
-    languageName: English
+    locale: en-us
+    label: English
     weight: 1
   nl:
-    languageCode: nl
-    languageName: Nederlands
+    locale: nl
+    label: Nederlands
     weight: 2
 # Enable emojis globally
 enableEmoji: true
