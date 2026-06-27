@@ -1,12 +1,19 @@
 title: Willem Vooijs
 baseURL: https://vooijs.eu/
-languageCode: en-us
 theme: hugo-blog-awesome
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
 # To disable  Google Analytics, simply leave the field empty or remove the next line
 googleAnalytics: G-FFEE1FZEXZ # G-MEASUREMENT_ID
-# This defines how dates are formatted
-defaultContentLanguage: en-gb
+defaultContentLanguage: en
+languages:
+  en:
+    languageCode: en-us
+    languageName: English
+    weight: 1
+  nl:
+    languageCode: nl
+    languageName: Nederlands
+    weight: 2
 # Enable emojis globally
 enableEmoji: true
 #ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
