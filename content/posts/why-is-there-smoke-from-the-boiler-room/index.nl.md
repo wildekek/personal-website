@@ -3,6 +3,8 @@ date: "2026-06-26"
 draft: false
 title: "Waarom komt er rook uit de stookruimte?"
 ---
+> Dit artikel is vertaald vanuit [het engels](../../../posts/why-is-there-smoke-from-the-boiler-room/) mbv AI.
+
 *Een pleidooi om de data van je gebouw terug te nemen — en een argument dat wat je thuis draait ook op je werk thuishoort.*
 
 Iemand loopt mijn kantoor binnen en stelt een simpele vraag: *waarom komt er rook uit de stookruimte?*
