@@ -50,7 +50,7 @@ menu:
 params:
   sitename: Willem Vooijs
   defaultColor: dark
-  description: Willem Vooijs - Product Manager sharing insights on electronics, home automation, open source software, and sustainable energy
+  description: Willem Vooijs - builder and tinkerer sharing insights on electronics, home automation, open source software, and sustainable energy
   mainSections:
   - posts
   toc: false
@@ -62,8 +62,9 @@ params:
     avatar: avatar.jpg
     intro: Hi, I'm Willem Vooijs.
     name: Willem Vooijs
-    description: Product Manager by profession. I love tinkering with electronics,
-      home automation, open source software and sustainable energy.
+    description: I've worn a lot of hats in tech; the constant is that I love to
+      build things and understand how they work. Electronics, home automation,
+      open source software and sustainable energy.
   socialIcons:
   - name: github
     url: https://github.com/wildekek
