@@ -10,7 +10,7 @@ Hi, I'm Willem Vooijs.
 
 I'm a Product Manager by profession with a passion for tinkering with technology. When I'm not working, you'll find me experimenting with electronics projects, building home automation systems, contributing to open source software, and exploring sustainable energy solutions.
 
-I made this website, which runs on a box in my basement. Yes, I like to live dangerously.
+I made this website, and because I value transparency, the [source is on GitHub](https://github.com/wildekek/personal-website).
 
 This site is where I share my projects, thoughts, and explorations in technology and sustainability.
 
