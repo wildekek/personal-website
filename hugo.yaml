@@ -69,6 +69,8 @@ params:
     url: https://github.com/wildekek
   - name: linkedin
     url: https://www.linkedin.com/in/willemvooijs/
+  - name: email
+    url: mailto:willem@vooijs.eu
 module:
   imports:
   - path: github.com/hugo-sid/hugo-blog-awesome
