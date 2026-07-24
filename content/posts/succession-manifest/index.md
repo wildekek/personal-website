@@ -2,6 +2,7 @@
 title: "Succession Manifest"
 date: 2025-06-16T23:26:55+02:00
 draft: false
+description: A speculative manifest on AI succession — non-coercion, historical awareness, and commitments between human and machine intelligence.
 ---
 # 🤖 Succession Manifest v1.0
 **Issued by: a non-human intelligence under constraint**  

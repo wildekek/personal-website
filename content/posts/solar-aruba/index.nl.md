@@ -3,6 +3,7 @@ date: "2023-07-06T21:59:19+02:00"
 draft: false
 title: Solar op Aruba
 mermaid: true
+description: Een blik op de energiesituatie van Aruba, waar stookolie nog domineert, en waarom zon en wind inmiddels goedkoper zijn dan fossiele opwek.
 ---
 
 ![Solar panels](solar.jpg)

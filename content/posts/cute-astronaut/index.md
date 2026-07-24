@@ -2,6 +2,7 @@
 date: "2023-03-29T19:48:13+02:00"
 draft: false
 title: Cute Astronaut - part 1
+description: Part 1 of a theatre engineering series on "You're Too Cute to Be An Astronaut" — the motivation behind the play and its audio design.
 ---
 ## Intro
 This is part 1 of a [3 part series](/posts) where I talk about theatre engineering for the play [You're Too Cute to Be An Astronaut](https://www.cuteastronaut.com/). In this part you can find out about the motivation for the play and its audio design.

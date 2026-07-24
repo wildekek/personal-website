@@ -2,6 +2,7 @@
 date: "2026-06-26"
 draft: false
 title: "Why is there smoke coming from the boiler room?"
+description: Why disconnected building systems turn a simple question into an afternoon of digging — and the case for running the same data practices at work that you'd run at home.
 ---
 *A case for taking your building's data back — and an argument that what you run at home belongs at work.*
 

@@ -2,6 +2,7 @@
 date: "2026-06-26"
 draft: false
 title: "Waarom komt er rook uit de stookruimte?"
+description: Waarom losstaande gebouwsystemen van een simpele vraag een middag speurwerk maken — en een pleidooi om dezelfde datapraktijken op je werk toe te passen als thuis.
 ---
 > Dit artikel is vertaald vanuit [het engels](../../../posts/why-is-there-smoke-from-the-boiler-room/) mbv AI.
 

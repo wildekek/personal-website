@@ -2,6 +2,7 @@
 date: "2023-04-03T13:07:03+02:00"
 draft: false
 title: Cute Astronaut - part 2
+description: Part 2 of a theatre engineering series — building a Home Assistant based show controller so a solo actor can run cues unaided.
 ---
 ## Intro
 This is part 2 of a [3 part series](/posts) where I talk about theatre engineering for the play [You're Too Cute to Be An Astronaut](https://www.cuteastronaut.com/). In [part 1](/posts/cute-astronaut/) of this series you can find out about the motivation for the play and its audio design. This part will focus on creating a show controller for the play using Home Assistant.

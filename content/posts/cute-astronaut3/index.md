@@ -2,6 +2,7 @@
 date: "2023-08-04T16:48:39+02:00"
 draft: false
 title: Cute Astronaut - part 3
+description: Part 3 of a theatre engineering series — building a remote-controlled countdown clock with ESPHome, inspired by NASA's Kennedy Space Center clock.
 ---
 
 ## Intro
