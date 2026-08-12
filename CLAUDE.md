@@ -3,6 +3,47 @@
 Hugo site, deployed to GitHub Pages by `.github/workflows/deploy.yml` on push to
 `main`. See README.md for the stack.
 
+## At the start of every session: check for updates
+
+Willem wants to run on latest. **Frequent small bumps beat infrequent large
+ones** — a version behind is cheap to move, five versions behind is an
+afternoon. So at the start of a session, before other work, check all four
+moving parts and offer to bump whatever is behind. Do the bump when he says so;
+don't silently skip the check because the session is about something else.
+
+```bash
+# Hugo — pinned in .github/workflows/deploy.yml
+curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | grep -m1 tag_name
+hugo version                     # local Homebrew build, keep it on the same version
+
+# Theme — pinned in go.mod
+curl -s "https://api.github.com/repos/hugo-sid/hugo-blog-awesome/tags?per_page=5" | grep '"name"'
+
+# GitHub Actions — pinned in .github/workflows/deploy.yml
+for r in actions/checkout actions/configure-pages actions/upload-pages-artifact \
+         actions/deploy-pages peaceiris/actions-hugo; do
+  printf "%-34s " "$r"
+  curl -s "https://api.github.com/repos/$r/releases/latest" | grep -m1 tag_name
+done
+```
+
+Three traps, each of which has already bitten once:
+
+- **Check GitHub tags for the theme, not the Go proxy.** A major version needs a
+  `/vN` suffix in the module path; without it `go list -m -versions` and
+  `hugo mod get -u` both report the old line as newest and hide the new one
+  entirely.
+- **Re-diff every override after a theme bump** (see below). This is the step
+  that actually matters and the easiest to skip.
+- **Keep local Hugo and the CI pin on the same version**, or local verification
+  is not evidence about CI.
+
+Bump one thing per commit so a bad one is easy to isolate and revert.
+
+Action bumps are safe to verify in production — a failed Pages workflow leaves
+the previous deployment serving, so the live site cannot break. Hugo and theme
+bumps are not: they change the built output, so verify those locally first.
+
 ## Theme overrides
 
 The theme is a **Go module**, not files in this repo:
