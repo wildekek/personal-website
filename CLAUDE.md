@@ -103,6 +103,18 @@ January 2, 2006`. Dutch list pages render `June 26, 2026` where v1 rendered
 
 Fix: restore `{{ time.Format $configDateFormat .Date }}`.
 
+**The strongest evidence, measured here:** `.Date.Format` does not merely lose
+localisation, it makes the correct fix impossible. Hugo's locale-aware `:date_*`
+tokens are a `time.Format` feature; passing one to Go's method renders it as a
+literal string. With `params.dateFormat: ":date_long"` and the stock theme, both
+languages print:
+
+```
+:date_long
+```
+
+That is why the theme's default had to become the hardcoded `"2 Jan 2006"`.
+
 Two things to raise alongside it:
 
 - `layouts/single.html:11` uses the same non-localised `{{ .Format
@@ -110,8 +122,15 @@ Two things to raise alongside it:
   too. We never saw it because `layouts/_default/single.html` overrides it here.
   Unconfirmed against a stock install — check before asserting.
 - v2 changed the `$configDateFormat` default from `":date_medium"` to
-  `"2 Jan 2006"`. Hugo's `:date_*` tokens are locale-aware; a hardcoded Go
-  reference layout is not. A `:date_*` default is the more robust choice.
+  `"2 Jan 2006"`, which looks like a workaround for the bug rather than a
+  choice. Once `time.Format` is restored, a `:date_*` default is more robust for
+  sites that never set `params.dateFormat`.
+
+Note for this site: fixing the theme partial was necessary but not sufficient.
+`params.dateFormat` also had to move from `"January 2, 2006"` to `":date_long"`,
+because a Go reference layout hardcodes English month-first ordering — Dutch
+rendered "juni 26, 2026" instead of "26 juni 2026" even with `time.Format` in
+place. Localised names and localised *order* are two separate problems.
 
 ### 2. Language switcher emits a stray `ZgotmplZ` attribute
 
