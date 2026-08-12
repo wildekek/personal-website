@@ -1,14 +1,14 @@
 {{/*
-  Overrides meta/standard.html from the hugo-blog-awesome module.
+  Overrides meta/standard.html from the hugo-blog-awesome module (v2.1.0).
 
   Only change from upstream: the homepage title is the site title alone rather
   than "Home | Willem Vooijs". The homepage is the page that has to win a search
   for the site owner's name, and the title tag is the strongest on-page signal
   for that query -- leading with "Home" spends it on a generic word.
 
-  Everything below this block is a verbatim copy of the module's version. When
-  bumping the theme, re-diff against
-  layouts/partials/meta/standard.html in the module and re-apply just the title.
+  Everything below is a verbatim copy of the module's version. When bumping the
+  theme, re-diff against layouts/_partials/meta/standard.html in the module and
+  re-apply just the title block.
 */}}
 <meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html">
@@ -42,10 +42,10 @@
 <meta property="og:description" content="{{ $description }}" />
 <meta name="twitter:description" content="{{ $description }}" />
 
-<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
-<meta name="language" content="{{ .Site.LanguageCode }}" />
+<meta property="og:locale" content="{{ .Site.Language.Locale }}" />
+<meta name="language" content="{{ .Site.Language.Locale }}" />
 {{ range .AllTranslations }}
-  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.Label }}" />
 {{ end }}
 
 {{/*  Define empty variable image  */}}

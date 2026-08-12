@@ -73,4 +73,4 @@ params:
     url: mailto:willem@vooijs.eu
 module:
   imports:
-  - path: github.com/hugo-sid/hugo-blog-awesome
+  - path: github.com/hugo-sid/hugo-blog-awesome/v2

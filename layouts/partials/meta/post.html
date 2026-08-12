@@ -1,20 +1,18 @@
 {{/*
-  Overrides meta/post.html from the hugo-blog-awesome module.
+  Overrides meta/post.html from the hugo-blog-awesome module (v2.1.0).
 
-  Changes from upstream, all inside the JSON-LD block:
-    - author name came from .Site.Params.github, a param this site does not
-      define (GitHub lives under socialIcons), so every post shipped
-      "author": {"name": ""} -- an anonymous byline on all of them. Now reads
-      the configured author and carries the same @id as the Person node in
-      partials/schema.html, so posts and the homepage resolve to one entity
-      instead of several unrelated ones.
-    - publisher was an Organization sharing the author's name, which invents a
-      second entity competing with the Person. Now the same Person @id.
-    - mainEntityOfPage was the literal string "True"; it takes a URL.
-    - the imageObject emitted "url": "" on posts with no image; now omitted.
+  v2.1.0 already fixed the empty author name, mainEntityOfPage and the @context
+  that earlier versions got wrong. What remains, and what this override changes,
+  is entity identity:
+    - the author Person carries an @id matching the Person node in
+      partials/schema.html, plus a url, so every post and the homepage resolve
+      to one entity instead of several unrelated ones sharing a name.
+    - publisher was an Organization named after the site, which invents a second
+      entity competing with the Person for that name. Now the same Person @id.
+    - the ImageObject emitted "url": "" on posts with no images; now omitted.
 
   Everything else is a verbatim copy of the module's version. When bumping the
-  theme, re-diff against layouts/partials/meta/post.html in the module.
+  theme, re-diff against layouts/_partials/meta/post.html in the module.
 */}}
 {{/*  These meta tags are rendered only in the posts section (i.e. in single/list page)  */}}
 {{ if eq .Section "posts" }}
@@ -53,7 +51,7 @@
     <meta property="article:section" content="{{ index . 0 }}" />
     {{ end }}
 
-    <script defer type="application/ld+json">
+    <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Article",
@@ -61,22 +59,22 @@
         "author": {
         "@type": "Person",
         "@id": "{{ .Site.BaseURL }}#person",
-        "name": "{{ .Site.Params.author.name }}",
+        "name": "{{ with .Site.Params.author }}{{ .name }}{{ end }}",
         "url": "{{ .Site.BaseURL }}"
         },
-        "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
+        "datePublished": {{ dateFormat "2006-01-02" .Date }},
         "description": {{ .Description }},
         "wordCount": {{ .WordCount }},
-        "mainEntityOfPage": "{{ .Permalink }}",
-        "dateModified": "{{ dateFormat "2006-01-02" .Lastmod }}",
-        {{ with .Params.image }}"image": {
-        "@type": "imageObject",
-        "url": "{{ . | absURL }}"
+        "mainEntityOfPage": {{ .Permalink }},
+        "dateModified": {{ dateFormat "2006-01-02" .Lastmod }},
+        {{ with .Params.images }}"image": {
+        "@type": "ImageObject",
+        "url": {{ index . 0 | absURL }}
         },
         {{ end }}"publisher": {
         "@type": "Person",
         "@id": "{{ .Site.BaseURL }}#person",
-        "name": "{{ .Site.Params.author.name }}"
+        "name": "{{ with .Site.Params.author }}{{ .name }}{{ end }}"
         }
     }
     </script>
