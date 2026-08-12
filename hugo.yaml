@@ -16,6 +16,16 @@ languages:
     locale: nl
     label: Nederlands
     weight: 2
+    # Overrides the global params below for Dutch pages. Only the keys listed
+    # here differ; the rest (author.avatar, author.name, socialIcons, ...) are
+    # inherited.
+    params:
+      description: Willem Vooijs schrijft over elektronica, domotica, open source software en duurzame energie
+      author:
+        intro: Hoi, ik ben Willem Vooijs.
+        description: Ik heb heel wat petten op gehad in de tech; de constante is
+          dat ik graag dingen bouw en begrijp hoe ze werken. Elektronica,
+          domotica, open source software en duurzame energie.
 # Enable emojis globally
 enableEmoji: true
 #ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
