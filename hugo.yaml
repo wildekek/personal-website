@@ -50,6 +50,8 @@ params:
   sitename: Willem Vooijs
   defaultColor: dark
   description: Willem Vooijs - builder and tinkerer sharing insights on electronics, home automation, open source software, and sustainable energy
+  # Fallback share card (og:image / twitter:image). 1200x630, served from static/.
+  ogimage: /og-image.jpg
   mainSections:
   - posts
   toc: false
