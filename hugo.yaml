@@ -67,7 +67,13 @@ params:
   toc: false
   goToTop: true
   additionalScripts: []
-  dateFormat: January 2, 2006
+  # Locale-aware token rather than a Go reference layout. A literal layout like
+  # "January 2, 2006" hardcodes English month-first ordering, so Dutch pages
+  # rendered "juni 26, 2026" instead of "26 juni 2026". :date_long picks the
+  # right order and names per language: "June 26, 2026" / "26 juni 2026".
+  # Requires time.Format (see layouts/partials/postCard.html) -- Go's
+  # .Date.Format does not understand these tokens.
+  dateFormat: ":date_long"
   rssFeedDescription: summary
   author:
     avatar: avatar.jpg
