@@ -1,0 +1,67 @@
+{{/*
+  Overrides meta/standard.html from the hugo-blog-awesome module.
+
+  Only change from upstream: the homepage title is the site title alone rather
+  than "Home | Willem Vooijs". The homepage is the page that has to win a search
+  for the site owner's name, and the title tag is the strongest on-page signal
+  for that query -- leading with "Home" spends it on a generic word.
+
+  Everything below this block is a verbatim copy of the module's version. When
+  bumping the theme, re-diff against
+  layouts/partials/meta/standard.html in the module and re-apply just the title.
+*/}}
+<meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+{{- $pageTitle := printf "%s | %s" .Title .Site.Title -}}
+{{- if .IsHome -}}
+  {{- $pageTitle = .Site.Title -}}
+{{- end -}}
+
+<title itemprop="name">{{ $pageTitle }}</title>
+<meta property="og:title" content="{{ $pageTitle }}" />
+<meta name="twitter:title" content="{{ $pageTitle }}" />
+<meta itemprop="name" content="{{ $pageTitle }}" />
+<meta name="application-name" content="{{ $pageTitle }}" />
+<meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+
+{{/*  Define empty variable description  */}}
+{{- $description := "" -}}
+
+{{/*  If description is defined in front matter, use it  */}}
+{{- if .Params.description -}}
+  {{- $description = trim .Params.description "\n" -}}
+{{/*  If description is not defined in front matter, use site description  */}}
+{{- else if .Site.Params.description -}}
+  {{- $description = trim .Site.Params.description "\n" -}}
+{{- end -}}
+
+<meta name="description" content="{{ $description }}">
+<meta itemprop="description" content="{{ $description }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+
+<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+<meta name="language" content="{{ .Site.LanguageCode }}" />
+{{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
+{{ end }}
+
+{{/*  Define empty variable image  */}}
+{{- $image := "" -}}
+
+{{/*  If image is defined in front matter, use it  */}}
+{{- if .Params.image -}}
+  {{- $image = .Params.image -}}
+{{/*  If image is not defined in front matter, use site ogimage  */}}
+{{- else if .Site.Params.ogimage -}}
+  {{- $image = .Site.Params.ogimage -}}
+{{- end -}}
+
+{{- if $image -}}
+<meta itemprop="image" content="{{ $image | absURL }}" />
+<meta property="og:image" content="{{ $image | absURL }}" />
+<meta name="twitter:image" content="{{ $image | absURL }}" />
+<meta name="twitter:image:src" content="{{ $image | absURL }}" />
+{{- end -}}

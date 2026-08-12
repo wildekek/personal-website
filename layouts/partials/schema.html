@@ -4,6 +4,8 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  {{/* Stable @id so the author on every post resolves to this same node. */}}
+  "@id": "{{ .Site.BaseURL }}#person",
   "name": "{{ $author.name }}",
   "url": "{{ .Site.BaseURL }}",
   "image": "{{ .Site.BaseURL }}{{ $author.avatar }}",
