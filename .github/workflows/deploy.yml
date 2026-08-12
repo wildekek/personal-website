@@ -31,7 +31,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: latest
+          # Pinned so CI builds with a known version rather than drifting under
+          # us. Bump it deliberately (see CLAUDE.md) and keep the local Homebrew
+          # hugo on the same version, so local verification matches CI.
+          hugo-version: 0.164.0
           extended: true
 
       - name: Setup Pages
