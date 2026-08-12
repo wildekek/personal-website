@@ -8,7 +8,10 @@
   "@id": "{{ .Site.BaseURL }}#person",
   "name": "{{ $author.name }}",
   "url": "{{ .Site.BaseURL }}",
-  "image": "{{ .Site.BaseURL }}{{ $author.avatar }}",
+  {{/* The avatar is an asset, not a static file, so it is only served once
+       something references its Permalink -- hardcoding BaseURL + filename
+       pointed at a 404. */}}
+  "image": "{{ with resources.Get $author.avatar }}{{ .Permalink }}{{ else }}{{ $.Site.BaseURL }}og-image.jpg{{ end }}",
   "description": "{{ $author.description }}",
   "sameAs": [
     {{- range $index, $icon := $socialIcons -}}
